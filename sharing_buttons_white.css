@@ -1,0 +1,62 @@
+.sharing-buttons {
+    text-align: center;
+}
+
+.sharing-buttons > .share-label {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 1em;
+    color: white;
+}
+
+.sharing-buttons > a {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    border-radius: 3px;
+    margin-right: 6px;
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    transition: background-color 0.5s;
+}
+
+.sharing-buttons > a > svg {
+    display: inline-block;
+    position: absolute;
+    left: 14%;
+    top: 14%;
+    width: 72%;
+    height: 72%;
+    color: #b7b7b7;
+}
+
+.sharing-buttons > a.twitter:hover {
+    background-color: #55acee;
+}
+
+.sharing-buttons > a.facebook:hover {
+    background-color: #3b5998;
+}
+
+.sharing-buttons > a.email:hover {
+    background-color: #32506d;
+}
+
+.sharing-buttons > a.google:hover {
+    background-color: #dd4b39;
+}
+
+.sharing-buttons > a.reddit:hover {
+    background-color: #ff4500;
+}
+
+.sharing-buttons > a.pinterest:hover {
+    background-color: #cb2027;
+}
+
+.sharing-buttons > a.tumblr:hover {
+    background-color: #32506d;
+}
+
