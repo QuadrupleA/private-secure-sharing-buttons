@@ -14,7 +14,9 @@ It installs no cookies, makes zero additional HTTP requests, and does not call t
 
 ## Examples
 
-Here are a couple sites I use these on:
+Download the files and open `example.html` in a browser to see it in action.
+
+Also, here are a couple sites I use these on:
 
 * Default style (`sharing_buttons.css`): [phrasegenerator.com](https://phrasegenerator.com/politics)
 * White style: (`sharing_buttons_white.css`): [Battleships: Mindless Podcast Companion](https://lukerissacher.com/battleships)
@@ -96,7 +98,7 @@ Options are passed via `data-` attributes or the 2nd parameter to `AddSharingBut
 
 ## Contributions
 
-Pull requests are welcome - while I don't want to add anything that makes it harder to use or understand the code (e.g. splitting into many files / functions), new social network / sharing services, alternate icons and stylings, etc. are most welcome, as well as fixes to any bugs or browser incompatibilities.
+Pull requests are welcome - new social network / sharing services, alternate icons and stylings, as well as fixes to any bugs or browser incompatibilities.
 
 Thanks and enjoy!
 
