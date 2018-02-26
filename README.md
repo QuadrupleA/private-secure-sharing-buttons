@@ -18,9 +18,7 @@ Download the files and open `example.html` in a browser to see it in action.
 
 Screenshots of the two included styles:
 
-![Screenshot, default style](/../doc-images/screenshot_standard.png?raw=true "Default style")
-
-![Screenshot, white style](/../doc-images/screenshot_white.png?raw=true "White style")
+![Screenshots](/../doc-images/screenshots.png?raw=true "Default style")
 
 Also, a couple sites I use these on:
 
