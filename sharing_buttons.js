@@ -115,7 +115,6 @@ function AddSharingButtons(selector, options) {
 // Options can be specified using the attributes: 
 //   data-<OptionName>="<OptionValue>"
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('dcl');
     var containers = document.querySelectorAll('[data-sharing-buttons=true]');
     for (var i = 0; i < containers.length; i++) {
         var container = containers[i];
