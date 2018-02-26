@@ -37,7 +37,8 @@ For this, no additional javascript is needed. Just add an element with `data-sha
   <body>
     <div data-sharing-buttons="true" 
          data-services="twitter facebook email"
-         data-otherOptionName="Other option value"></div>
+         data-otherOptionName="Other option value"
+         class="sharing-buttons"></div>
   </body>
 </html>
 ```
