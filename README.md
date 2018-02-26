@@ -4,7 +4,7 @@ Privacy-respecting, simple social sharing buttons in native JavaScript.
 
 ## Introduction
 
-Most social-sharing-button services like [AddThis](https://addthis.com/) and [Shareaholic](https://shareaholic.com/) have little respect for your users' privacy, installing dozens of tracking cookies that follow your users around the web, and degrading the performance of your pages by making surreptitious requests in the background. It's bad enough that most adblockers now block them, making it hard for people to share your stuff at all. 
+Most social-sharing-button services like [AddThis](https://addthis.com/) and [Shareaholic](https://shareaholic.com/) have little respect for your users' privacy, installing dozens of tracking cookies that follow them around the web, and degrading the performance of your pages by making surreptitious requests in the background. It's bad enough that most adblockers now block them, making it hard for people to share your stuff at all. 
 
 When I was looking for alternatives, most of the ones I found, like [Social Share Privacy](https://github.com/panzi/SocialSharePrivacy) which Bruce Schneier [uses on his blog](https://www.schneier.com/blog/archives/2013/03/changes_to_the.html), seemed a bit overengineered / overcomplicated, requiring node.js, build scripts, asset folders, several dependent libraries, code and settings split across multiple files, etc. 
 
