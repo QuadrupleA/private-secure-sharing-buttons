@@ -1,5 +1,5 @@
 // Privacy-respecting, secure, and simple social sharing buttons in native JS.
-// Use them on your own projects: 
+// Use them on your own projects:
 // https://github.com/QuadrupleA/private-secure-sharing-buttons
 
 // Adds sharing buttons inside the container elements selected by 'selector'.
@@ -79,7 +79,7 @@ function AddSharingButtons(selector, options) {
     // For each selected button container...
     var containers = document.querySelectorAll(selector);
     for (var i = 0; i < containers.length; i++) {
-    
+
         // Add the 'share this' label if present
         var container = containers[i];
         container.innerHTML = options.labelHtml;
@@ -112,7 +112,7 @@ function AddSharingButtons(selector, options) {
 
 // Optional: on page load, adds sharing buttons to any element with the attribute:
 //   data-sharing-buttons="true"
-// Options can be specified using the attributes: 
+// Options can be specified using the attributes:
 //   data-<OptionName>="<OptionValue>"
 document.addEventListener('DOMContentLoaded', function() {
     var containers = document.querySelectorAll('[data-sharing-buttons=true]');
@@ -130,4 +130,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         AddSharingButtons('#' + container.id, options);
     }
-});
+}, { once : true });
