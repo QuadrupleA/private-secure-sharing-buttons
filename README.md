@@ -83,7 +83,7 @@ Options are passed via `data-` attributes or the 2nd parameter to `AddSharingBut
 
 * __services__
   * Space-separated list of services you want sharing buttons for. 
-  * Default: `'twitter facebook email google reddit pinterest tumblr'` (all of them)
+  * Default: `'twitter facebook email reddit pinterest tumblr'` (all of them)
 * __url__
   * URL you want to share. 
   * Default: `location.href`

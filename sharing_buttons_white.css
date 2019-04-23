@@ -44,10 +44,6 @@
     background-color: #32506d;
 }
 
-.sharing-buttons > a.google:hover {
-    background-color: #dd4b39;
-}
-
 .sharing-buttons > a.reddit:hover {
     background-color: #ff4500;
 }

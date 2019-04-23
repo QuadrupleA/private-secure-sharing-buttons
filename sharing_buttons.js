@@ -7,7 +7,7 @@ function AddSharingButtons(selector, options) {
 
     // Add defaults to 'options' where missing
     var OPTION_DEFAULTS = {
-        services: 'twitter facebook email google reddit pinterest tumblr',
+        services: 'twitter facebook email reddit pinterest tumblr',
         url: location.href,
         title: document.title,
         text: (document.querySelector('meta[name=description]') || {}).content || '',
@@ -45,13 +45,6 @@ function AddSharingButtons(selector, options) {
             windowParams: '',
             tooltip: 'Share via email',
             iconHtml: '<svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>'
-        },
-        google: {
-            baseLink: 'https://plus.google.com/share?',
-            urlParams: { url: options.url },
-            windowParams: 'width=490,height=530',
-            tooltip: 'Share on Google+',
-            iconHtml: '<svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"></path></svg>'
         },
         reddit: {
             baseLink: 'https://www.reddit.com/submit?',
