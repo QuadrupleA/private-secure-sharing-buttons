@@ -20,11 +20,6 @@ Screenshots of the two included styles:
 
 ![Screenshots](/../doc-images/screenshots.png?raw=true "Default style")
 
-Also, a couple sites I use these on:
-
-* Default style (`sharing_buttons.css`): [Random Phrase Generator](https://phrasegenerator.com/politics)
-* White style: (`sharing_buttons_white.css`): [Battleships: Mindless Podcast Companion](https://lukerissacher.com/battleships)
-
 ## Usage
 
 Add `sharing_buttons.js` and the CSS styles to your page. Then, do one of the following:
