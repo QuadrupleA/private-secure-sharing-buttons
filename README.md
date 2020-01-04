@@ -16,6 +16,8 @@ It's written in native JavaScript, and doesn't require jQuery, React, Angular, o
 
 Download the files and open `example.html` in a browser to see it in action.
 
+A live demo (scroll to bottom) is at: [tomrissacher.com](https://tomrissacher.com/)
+
 Screenshots of the two included styles:
 
 ![Screenshots](/../doc-images/screenshots.png?raw=true "Default style")
