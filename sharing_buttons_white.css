@@ -29,15 +29,15 @@
     top: 14%;
     width: 72%;
     height: 72%;
-    color: #b7b7b7;
+    color: #777;
 }
 
 .sharing-buttons > a.twitter:hover {
-    background-color: #55acee;
+    background-color: #0f1419;
 }
 
 .sharing-buttons > a.facebook:hover {
-    background-color: #3b5998;
+    background-color: #0866ff;
 }
 
 .sharing-buttons > a.email:hover {
@@ -49,7 +49,7 @@
 }
 
 .sharing-buttons > a.pinterest:hover {
-    background-color: #cb2027;
+    background-color: #e50124;
 }
 
 .sharing-buttons > a.tumblr:hover {
